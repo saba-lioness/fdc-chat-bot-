@@ -1,0 +1,128 @@
+.center-text{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    font-weight: bolder;
+    
+}
+/* Add this to your tailwind.css or in a <style> block */
+.tight-heading {
+  margin-bottom: 0.2em; /* Adjust as needed */
+  margin-top: 0.2em;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+body{
+    color:white;
+    background-color: rgb(22, 22, 32);
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: Arial, sans-serif;
+}
+
+.chat-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  background: #181010;
+  border-radius: 30px;
+  padding: 12px 18px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
+.chat-input textarea {
+  flex: 1;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon-btn:hover {
+  color: #4a90e2;
+}
+
+.send-btn {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 12px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  background: #357ab8;
+}
+
+/* Plus button menu */
+.menu {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  display: none;
+  flex-direction: column;
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.menu button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  margin: 5px 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+}
+
+.menu button:hover {
+  background: #333;
+}
+
+/* Show chat output */
+#chatOutput {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+}
