@@ -3,6 +3,7 @@
     font-size: 50px;
     color:white;
     font-weight: bolder;
+    position: center;
     
     
     
@@ -11,6 +12,7 @@
 .tight-heading {
   margin-bottom: 0.2em; /* Adjust as needed */
   margin-top: 0.2em;
+  position: center;
 }
 
 
@@ -177,6 +179,6 @@ body {
 }
 
 .menu button:hover {
-  background: #2563eb;
+  background: #c6cbd4;
   color: #fff;
 }
