@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talksy!!</title>
-    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="final chatbot.css">
 </head>
 <body>
   <!-- Menu button and dropdown at top left -->
@@ -28,10 +28,22 @@
 <!-- ...existing code... -->
     <button class="icon-btn" id="plusBtn">➕</button>
     <textarea id="messageBox" placeholder="Ask anything you want..."></textarea>
-   <button class="icon-btn" id="voiceBtn">🎤</button>
-    <button class="send-btn" id="sendBtn">➡️</button>
+     <button class="icon-btn" id="voiceBtn" aria-label="Voice">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" viewBox="0 0 24 24" stroke="currentColor">
+    <rect x="9" y="2" width="6" height="12" rx="3" fill="#fff"/>
+    <path d="M5 10v2a7 7 0 0 0 14 0v-2" stroke="#2563eb" stroke-width="2" fill="none"/>
+    <line x1="12" y1="22" x2="12" y2="18" stroke="#2563eb" stroke-width="2"/>
+    <line x1="8" y1="22" x2="16" y2="22" stroke="#2563eb" stroke-width="2"/>
+  </svg>
+</button>
+  <button class="send-btn" id="sendBtn" aria-label="Send">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M3 20l18-8-18-8v7l13 1-13 1v7z" fill="#2563eb"/>
+  </svg>
+</button>
+                             
   </div>
-  <script src="tailwind.js"></script>
+  <script src="final chatbot.js"></script>
 
    
  
